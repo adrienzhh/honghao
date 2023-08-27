@@ -21,8 +21,6 @@ Work experience
   * I was involving in building the next generation multi-functional home robot [XIAOWEI](https://www.prnewswire.com/news-releases/midea-introduces-xiaowei--reshaping-home-life-301565044.html). I successfully managed the evaluation and performance testing of LiDAR and RGB-D sensors, strategically selecting the most cost-effective plan and thereby reducing the company's sensor budget by 40%. In addition, I actively participated in the implementation of ROS environments and perception models (utilizing 3D point clouds) for the initial prototype of XIAOWEI's robotic arms. 
   
   
-Full [CV](/files/CV-1.pdf)
-
-
+Full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 
 
