@@ -1,6 +1,6 @@
 ---
 title: "Solar System Explorer"
-excerpt: "A C++ based game that allow you to explore the solar system<br/><img src='/images/intro.png'>"
+excerpt: "A C++ based game that allow you to explore the solar system<br/><img src='/images/foo-bar-identity.jpg'>"
 collection: portfolio
 ---
 
