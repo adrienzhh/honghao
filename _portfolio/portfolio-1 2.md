@@ -3,8 +3,6 @@ title: "Solar System Explorer"
 excerpt: "A C++ based game that allow you to explore the solar system <br/><img src='/images/honghao_5.jpg'>"
 collection: portfolio
 ---
-
-# SolarExplorer
 A spacecraft flight game that allow you to explore solar system. Right now, please use Xcode on MacOS for built. This is the final project for 24780 Engineering Computation at CMU. [Repo link](https://github.com/adrienzhh/SolarExplorer)
 
 ## Control Command
