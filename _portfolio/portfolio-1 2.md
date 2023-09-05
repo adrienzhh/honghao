@@ -17,7 +17,7 @@ R: reset view <br>
 G: Generate monster <br>
 
 ## Demo Pictures
-<img src="images/intro.png"  width="700" height="500">
+<img src="images/intro.png"  width="500" height="300">
 
 
 

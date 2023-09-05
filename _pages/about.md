@@ -14,4 +14,3 @@ I have previsouly obtained by B.S. degrees from Georgia Institute of Technology.
  
 # Interesting Project
 
-<img src="images/intro.png"  width="500" height="300">
