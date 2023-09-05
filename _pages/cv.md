@@ -23,4 +23,6 @@ Work experience
   
 Full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 
+<img src="images/intro.png"  width="500" height="300">
+
 
