@@ -4,6 +4,22 @@ excerpt: "A C++ based game that allow you to explore the solar system <br/><img 
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+# SolarExplorer
+A spacecraft flight game that allow you to explore solar system. Right now, please use Xcode on MacOS for built. This is the final project for 24780 Engineering Computation at CMU. [Repo link](https://github.com/adrienzhh/SolarExplorer)
+
+## Control Command
+Arrows key: control roll/pitch angles <br>
+M: show menu <br>
+Space: shoot bullet <br>
+W/S: move forward/backward <br>
+A/D: move left/right <br>
+Shift: accelerate <br>
+P: perspective switch <br>
+R: reset view <br>
+G: Generate monster <br>
+
+## Demo Pictures
+<img src="images/intro.png"  width="700" height="500">
+
 
 
