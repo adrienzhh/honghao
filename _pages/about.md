@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hey, this is Honghao!"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,5 +12,5 @@ I am a second-year master student at Carnegie Mellon University working in [Robo
 
 I have previsouly obtained by B.S. degrees from Georgia Institute of Technology. I was advised by Dr. [Frank Dellaert](https://dellaert.github.io/). There, I was involved in robotic painting 🎨 using Franka Panda arm 🦾 
  
-# Interesting Project
+## Interesting Project
 
