@@ -13,6 +13,8 @@ I am a second-year master student at Carnegie Mellon University working in [Robo
 I have previsouly obtained by B.S. degrees from Georgia Institute of Technology. I was advised by Dr. [Frank Dellaert](https://dellaert.github.io/). There, I was involved in robotic painting 🎨 using Franka Panda arm 🦾 
 
 My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
+
+## Research
  
 ## Publication
 
@@ -20,13 +22,15 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
     <img src="images/real_experiment_pic.jpg" alt="Image" style="width: 30%;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
-            <a href="https://adrienzhh.github.io/honghao/_pages/cv.md"><b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b></a><br>
+            <a href="https://https://adrienzhh.github.io/honghao//cv/"><b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b></a><br>
             <a href="https://seanjwang.github.io/#home">Sean J. Wang</a>, <b>Honghao Zhu</b>, <a href="https://www.andrew.cmu.edu/user/amj1/">Aaron M. Johnson</a><br>
             <i>ICRA 2024, in review, </i>
             arXiv | video
         </p>
     </div>
 </div>
+
+## Selected Projects
 
 
 
