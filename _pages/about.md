@@ -14,5 +14,11 @@ I have previsouly obtained by B.S. degrees from Georgia Institute of Technology.
 
 My full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
  
-## Interesting Project
+## Publication
 
+<div style="display: flex; flex-direction: row;">
+    <img src="images/intro.png" alt="Image" style="width: 50%;" />
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Your description goes here. This is where you can provide details about the image or any other content you want to describe on the right side.</p>
+    </div>
+</div>
