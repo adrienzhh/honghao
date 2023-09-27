@@ -17,11 +17,16 @@ My full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 ## Publication
 
 <div style="display: flex; flex-direction: row;">
-    <img src="images/intro.png" alt="Image" style="width: 30%;" />
+    <img src="your-image-url.jpg" alt="Image" style="width: 30%;" />
     <div style="flex: 1; padding-left: 20px;">
-        <p style="font-size: 14px;">Your description goes here. This is where you can provide details about the image or any other content you want to describe on the right side.</p>
+        <p style="font-size: 20px;">
+            **Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving**
+            <br/>
+            [Sean J. Wang](https://seanjwang.github.io/), [Honghao Zhu], [Aaron M. Johnson](https://www.andrew.cmu.edu/user/amj1/)
+        </p>
     </div>
 </div>
+
 
 
 
