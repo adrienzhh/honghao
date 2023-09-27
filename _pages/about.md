@@ -22,7 +22,7 @@ My full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
         <p style="font-size: 15px;">
             Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving
             <br>
-            Sean J. Wang, Honghao Zhu, Aaron M. Johnson
+            <p style="font-size: 14px;">Sean J. Wang[https://seanjwang.github.io/#home], **Honghao Zhu**, Aaron M. Johnson</p>
         </p>
     </div>
 </div>
@@ -30,7 +30,7 @@ My full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 
 <div style="display: flex; align-items: center;">
     <img src="images/real_experiment_pic.jpg" alt="Image" style="max-width: 30%; flex: 1;" />
-    <div style="flex: 2; padding-left: 20px;">
+    <div style="flex: 5; padding-left: 20px;">
         <p>Your description goes here. This is where you can provide details about the image or any other content you want to describe on the right side.</p>
     </div>
 </div>
