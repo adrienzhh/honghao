@@ -22,7 +22,7 @@ My full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
         <p style="font-size: 15px;">
             Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving
             <br>
-            <p style="font-size: 14px;">Sean J. Wang[https://seanjwang.github.io/#home], **Honghao Zhu**, Aaron M. Johnson</p>
+            <p style="font-size: 14px;"><a href="https://seanjwang.github.io/#home">Sean J. Wang</a>, <b>Honghao Zhu</b>, Aaron M. Johnson</p>
         </p>
     </div>
 </div>
