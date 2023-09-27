@@ -19,7 +19,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 ## Publication
 
 <div style="display: flex; flex-direction: row;">
-    <img src="images/robotmoive1.gif" alt="GIF" style="width: 30%;" />
+    <img src="images/robotmovie1.gif" alt="GIF" style="width: 30%;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/payAttentionDrift/"><b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b></a><br>
