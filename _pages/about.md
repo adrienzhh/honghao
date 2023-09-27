@@ -28,5 +28,13 @@ My full [CV](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 </div>
 
 
+<div style="display: flex; align-items: center;">
+    <img src="images/real_experiment_pic.jpg" alt="Image" style="max-width: 30%; flex: 1;" />
+    <div style="flex: 2; padding-left: 20px;">
+        <p>Your description goes here. This is where you can provide details about the image or any other content you want to describe on the right side.</p>
+    </div>
+</div>
+
+
 
 
