@@ -20,6 +20,16 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
     <img src="images/robotic_paint_2.gif" alt="GIF" style="width: 30%;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
+            <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
+            Improve robustness of LiDAR-inertial SLAM under high robot dynamic
+        </p>
+    </div>
+</div>
+
+<div style="display: flex; flex-direction: row;">
+    <img src="images/robotic_paint_2.gif" alt="GIF" style="width: 30%;" />
+    <div style="flex: 1; padding-left: 20px;">
+        <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/roboticPaint/"><b>Robotic Painting</b></a><br>
             We use Franka Arm to paint graffti on a stand 
         </p>
