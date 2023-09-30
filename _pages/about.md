@@ -27,7 +27,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 </div>
 <br>
 <div style="display: flex; flex-direction: row;">
-    <img src="images/robotic_paint_2.gif" alt="GIF" style="width: 30%;" />
+    <img src="images/robotic_paint_2.gif" alt="GIF" style="width: 40%;height: 140px;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/roboticPaint/"><b>Robotic Painting</b></a><br>
