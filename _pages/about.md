@@ -17,7 +17,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 ## Research
 
 <div style="display: flex; flex-direction: row;">
-    <img src="images/hans_experiment_setup.gif" alt="GIF" style="width: 30%;" />
+    <img src="images/hans_experiment_setup.gif" alt="GIF" style="width: 40%;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
