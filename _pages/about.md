@@ -17,7 +17,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 ## Research
 
 <div style="display: flex; flex-direction: row;">
-    <img src="images/robotic_paint_2.gif" alt="GIF" style="width: 40%;height: 120px;" />
+    <img src="images/hans_experiment_setup.gif" alt="GIF" style="width: 40%;height: 120px;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
@@ -38,7 +38,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
  
 ## Publication
 <div style="display: flex; flex-direction: row;">
-    <img src="images/icra_2024_for_website.gif" alt="GIF" style="width: 33%;height: 110px;" />
+    <img src="images/icra_2024_for_website.gif" alt="GIF" style="width: 40%;height: 120px;"  />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/payAttentionDrift/"><b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b></a><br>
@@ -50,15 +50,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
 </div>
 
 ## Selected Projects
-<div style="display: flex; flex-direction: row;">
-    <img src="images/hans_experiment_setup.gif" alt="GIF" style="width: 40%;height: 120px;" />
-    <div style="flex: 1; padding-left: 20px;">
-        <p style="font-size: 15px;">
-            <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
-            Improve robustness of LiDAR-inertial SLAM under high robot dynamic
-        </p>
-    </div>
-</div>
+
 
 
 
