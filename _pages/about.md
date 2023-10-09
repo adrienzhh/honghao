@@ -44,7 +44,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
             <a href="https://adrienzhh.github.io/honghao/payAttentionDrift/"><b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b></a><br>
             <a href="https://seanjwang.github.io/#home">Sean J. Wang</a>, <b>Honghao Zhu</b>, <a href="https://www.andrew.cmu.edu/user/amj1/">Aaron M. Johnson</a><br>
             <i>ICRA 2024, in review, </i>
-            arXiv | video
+            arXiv | [video](https://drive.google.com/file/d/1ReCrDkmMHNnkCNejk8AkMynjPOcO2UWN/view?usp=sharing)
         </p>
     </div>
 </div>
