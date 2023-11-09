@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Shaky Perception: How to improve robustness when robot under high dynamic locomotion"
 permalink: shakyPerception/
 author_profile: true
@@ -15,7 +16,7 @@ Based on current progress, I am utilizing the dynamics of the robot to assist fe
 
 
 <div style="display: flex; flex-direction: row;">
-    <img src="images/hans_experiment_setup.gif" alt="GIF" style="width: 40%;height: 120px;" />
+    <img src="{{ '/images/hans_experiment_setup.gif' | relative_url }}" alt="GIF" style="width: 40%;height: 120px;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
@@ -24,4 +25,4 @@ Based on current progress, I am utilizing the dynamics of the robot to assist fe
     </div>
 </div>
 
-<div style="text-align:center"><img src="/images/image-alignment-150x150.jpg"/></div>
+<div style="{{ '/images/intro.png' | relative_url }}"><img src="/images/image-alignment-150x150.jpg"/></div>
