@@ -15,14 +15,5 @@ Our Lidar-Inertial SLAM framework leverages the combined power of Lidar and IMU 
 Based on current progress, I am utilizing the dynamics of the robot to assist feature extraction in the front end and ensure a tightly-coupled factor graph optimization between LiDAR and IMU. I expect an increase in trajectory robustness compared to many state-of-art LiDAR related SLAM algorithms, such as LOAM and LIO-SAM. I intend to submit the result of this work to IROS 2024.
 
 
-<div style="display: flex; flex-direction: row;">
-    <img src="{{ '/images/hans_experiment_setup.gif' | relative_url }}" alt="GIF" style="width: 40%;height: 120px;" />
-    <div style="flex: 1; padding-left: 20px;">
-        <p style="font-size: 15px;">
-            <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
-            Improve robustness of LiDAR-inertial SLAM under high robot dynamic
-        </p>
-    </div>
-</div>
 
-<div style="text-align:center"><img src="https://adrienzhh.github.io/honghao/images/intro.png"/></div>
+<div style="text-align:center"><img src="https://adrienzhh.github.io/honghao/images/intro.png" style="width: 30%;"/></div>
