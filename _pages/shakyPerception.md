@@ -25,4 +25,4 @@ Based on current progress, I am utilizing the dynamics of the robot to assist fe
     </div>
 </div>
 
-<div style="{{ '/images/intro.png' | relative_url }}"><img src="/images/image-alignment-150x150.jpg"/></div>
+<div style="text-align:center"><img src="https://adrienzhh.github.io/honghao/images/intro.png"/></div>
