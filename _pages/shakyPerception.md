@@ -7,9 +7,15 @@ author_profile: true
 
 In the landscape of robotics and autonomous systems, the simultaneous localization and mapping (SLAM) technology plays a pivotal role in enabling robots to navigate and comprehend their surroundings. However, it faces a significant challenge when confronted with high dynamic robotic motion, leading to feature distortion and unstable measurements. 
 
-<p align="center">
-  <img src="https://github.com/adrienzhh/honghao/tree/master/images/image-alignment-150x150.jpg" alt="Your Alt Text">
-</p>
+<div style="display: flex; flex-direction: row;">
+    <img src="images/hans_experiment_setup.gif" alt="GIF" style="width: 40%;height: 120px;" />
+    <div style="flex: 1; padding-left: 20px;">
+        <p style="font-size: 15px;">
+            <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
+            Improve robustness of LiDAR-inertial SLAM under high robot dynamic
+        </p>
+    </div>
+</div>
 
 <div style="text-align:center"><img src="/images/image-alignment-150x150.jpg"/></div>
 
