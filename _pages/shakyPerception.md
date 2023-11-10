@@ -11,7 +11,7 @@ To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonst
 
 <figure style="text-align:center">
   <img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF" style="width: 60%;">
-  <figcaption>Simulation Environment</figcaption>
+  <em>Simulation Environment</em>
 </figure>
 
 My Lidar-Inertial SLAM framework leverages the combined power of Lidar and IMU sensors. This integration delivers a substantial leap in performance by addressing the key issues faced by camera SLAM systems. The Lidar-Inertial fusion offers superior accuracy in compared to camera and IMU fusion under high dynamic scenarios. Lidar sensors provide accurate and high-resolution 3D point cloud data of the surrounding environment. They are excellent at capturing detailed information about obstacles, landmarks, and the terrain. Inertial sensors can capture the motion of an object over time, making them less susceptible to drift that can accumulate in purely vision-based systems. The combination of Lidar's precise distance measurements and IMU's continuous motion tracking significantly reduces the margin of error. 
@@ -22,5 +22,5 @@ Based on current progress, I am utilizing the dynamics of the robot to assist fe
 
 <figure style="text-align:center">
   <img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;">
-  <figcaption>Trajectory on rocky terrian using LIO-SAM</figcaption>
+  <em>Trajectory on rocky terrian using LIO-SAM</em>
 </figure>
