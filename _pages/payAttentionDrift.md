@@ -9,7 +9,7 @@ In this project, we present a novel model-based reinforcement learning approach 
 
 <p align="center">
   <img src="https://adrienzhh.github.io/honghao/images/pay_drift_framework.png" style="width: 60%;"><br>
-  <em>Trajectory on rocky terrian using LIO-SAM</em>
+  <em>Framework</em>
 </p>
 
 Within the project, I took on the responsibility of transferring and adding new functionalities to our code from simulation to the Robot Operating System (ROS) to help out our real-world experiments using Python. As we increased our experiment repetitions, this became a significant and stressful challenge since many problems arose from robot wear and tear to pipeline issues that lead to data collection failures. Yet I successfully managed to handle the situation and maintain iterative code implementations to meet our rapid experimental requirements and keep up team morale. 
