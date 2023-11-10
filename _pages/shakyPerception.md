@@ -10,7 +10,7 @@ In the landscape of robotics and autonomous systems, the simultaneous localizati
 To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. An IMU, lidar sensor and camera is used to simulate sensor information for my research study. I compare lidar and IMU fusion approach with the camera and IMU fusion. 
 
 <p>
-  <img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF" style="width: 60%;">
+  <img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF" style="width: 60%;"><br>
   <em>Simulation Environment</em>
 </p>
 
@@ -21,6 +21,6 @@ Based on current progress, I am utilizing the dynamics of the robot to assist fe
 
 
 <p>
-  <img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;">
+  <img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;"><br>
   <em>Trajectory on rocky terrian using LIO-SAM</em>
 </p>
