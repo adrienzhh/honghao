@@ -9,8 +9,6 @@ In the landscape of robotics and autonomous systems, the simultaneous localizati
 
 To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. An IMU, lidar sensor and camera is used to simulate sensor information for my research study. I compare lidar and IMU fusion approach with the camera and IMU fusion. 
 
-<div style="text-align:center"><img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF"  style="width: 60%;"/></div>
-
 <figure style="text-align:center">
   <img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF" style="width: 60%;">
   <figcaption>Simulation Environment</figcaption>
@@ -21,8 +19,6 @@ My Lidar-Inertial SLAM framework leverages the combined power of Lidar and IMU s
 Based on current progress, I am utilizing the dynamics of the robot to assist feature extraction in the front end and ensure a tightly-coupled factor graph optimization between LiDAR and IMU. I expect an increase in trajectory robustness compared to many state-of-art LiDAR related SLAM algorithms, such as LOAM and LIO-SAM. I intend to submit the result of this work to IROS 2024.
 
 
-
-<div style="text-align:center"><img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;"/></div>
 
 <figure style="text-align:center">
   <img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;">
