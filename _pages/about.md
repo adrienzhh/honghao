@@ -12,7 +12,7 @@ I am a second-year master student at Carnegie Mellon University working in [Robo
 
 I have previsouly obtained by B.S. degrees from Georgia Institute of Technology. I was advised by Dr. [Frank Dellaert](https://dellaert.github.io/). There, I was involved in robotic painting 🎨 using Franka Panda arm 🦾 
 
-My full [Resume](https://adrienzhh.github.io/honghao/files/CV-1.pdf)
+My full [Resume](https://adrienzhh.github.io/honghao/files/CV-2.pdf)
 
 ## Research
 
