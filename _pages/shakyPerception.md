@@ -5,7 +5,7 @@ permalink: shakyPerception/
 author_profile: true
 ---
 
-In the landscape of robotics and autonomous systems, the simultaneous localization and mapping (SLAM) technology plays a pivotal role in enabling robots to navigate and comprehend their surroundings. However, it faces a significant challenge when confronted with high dynamic robotic motion, leading to feature distortion and unstable measurements. 
+In the landscape of robotics and autonomous systems, the simultaneous localization and mapping (SLAM) technology plays a pivotal role in enabling robots to navigate and comprehend their surroundings. However, it faces a significant challenge when confronted with high dynamic robotic motion, leading to feature distortion and unstable measurements. Below, we have a video showing stereo SLAM failed due to high dynamic motion on a Minitaur robot. 
 <p align="center">
   <video width="640" height="480" controls>
     <source src="https://adrienzhh.github.io/honghao/images/shakeyPerception.MP4" type="video/mp4">
