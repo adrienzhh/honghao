@@ -32,7 +32,9 @@ As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry
   <img src="https://adrienzhh.github.io/honghao/images/imu_1.png" style="width: 40%;">
   <img src="https://adrienzhh.github.io/honghao/images/imu_2.png" style="width: 40%;">
   <br>
-  <em>IMU plot</em>
+    <img src="https://adrienzhh.github.io/honghao/images/imu_3.png" style="width: 40%;">
+  <img src="https://adrienzhh.github.io/honghao/images/imu_4.png" style="width: 40%;">
+  <em><span style="color:blue">IMU integration trajectory</span> <span style="color:red">Ground truth trajectory</span> We can see IMU integration is very sensitive to large value spikes</em>
 </p>
 
 
