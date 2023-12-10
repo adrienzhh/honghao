@@ -12,12 +12,18 @@ In the landscape of robotics and autonomous systems, the simultaneous localizati
   </video>
 </p>
 
-To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. An IMU, lidar sensor and camera is used to simulate sensor information for my research study. I compare lidar and IMU fusion approach with the camera and IMU fusion. 
+Given the superior field of view and rich geometric information capture capabilities of LiDAR, I opted for a Lidar-Inertial SLAM approach to address the challenge. To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. Here, I tested state-of-art [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) under different pitch frequency. We can see the large state estimation difference between 0 Hz (no pitching) and 2.5 Hz. 
 
 <p align="center">
   <img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF" style="width: 60%;"><br>
   <em>Simulation Environment</em>
 </p>
+
+To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odometry separately. Per observation, the LiDAR odometry drift is mostly due to the sparse features when the robot kept facing the angle view where we don't have good geometric information (it's similar to the blank hallway scenario in the SLAM problem, in which the state estimation remains still because the lack of feature changes). As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry works well in a straight line however very sensitive if we experience sudden rotations or accelerations. 
+
+Additionally, 
+
+To evaulate the drift, I conducted trajectory experiment on Based on the observation, the large drift
 
 My Lidar-Inertial SLAM framework leverages the combined power of Lidar and IMU sensors. This integration delivers a substantial leap in performance by addressing the key issues faced by camera SLAM systems. The Lidar-Inertial fusion offers superior accuracy in compared to camera and IMU fusion under high dynamic scenarios. Lidar sensors provide accurate and high-resolution 3D point cloud data of the surrounding environment. They are excellent at capturing detailed information about obstacles, landmarks, and the terrain. Inertial sensors can capture the motion of an object over time, making them less susceptible to drift that can accumulate in purely vision-based systems. The combination of Lidar's precise distance measurements and IMU's continuous motion tracking significantly reduces the margin of error. 
 
