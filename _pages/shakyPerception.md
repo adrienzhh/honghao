@@ -19,15 +19,20 @@ Given the superior field of view and rich geometric information capture capabili
   <em>Simulation Environment</em>
 </p>
 
-To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odometry separately. Per observation, the LiDAR odometry drift is mostly due to the sparse features when the robot kept facing the angle view where we don't have good geometric information (it's similar to the blank hallway scenario in the SLAM problem, in which the state estimation remains still because the lack of feature changes). Because of this reason, this will lead to most open-sourced LiDAR-Inertial frameworks fail because they usually place a larger belief weight on LiDAR odometry when constructing a covariance matrix for backend optimization. A sample factor graph is shown below, the LiDAR factor serves as a constraint for IMU integration. 
+To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odometry separately. Per observation, the LiDAR odometry drift is mostly due to the sparse features when the robot kept facing the angle view where we don't have good geometric information (it's similar to the blank hallway scenario in the SLAM problem, in which the state estimation remains still because the lack of feature changes). Because of this reason, this will lead to most open-sourced LiDAR-Inertial frameworks fail because they usually place a larger belief weight on LiDAR odometry when constructing a covariance matrix for backend optimization if we assume robust LiDAR odometry. A sample factor graph is shown below, the LiDAR factor serves as a constraint for IMU integration. 
 
- As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry works well in a straight line however very sensitive if we experience sudden rotations or accelerations.  
+As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry works well in a straight line however very sensitive if we experience sudden rotations or accelerations.  
+
+
+A naive solution to this problem is to tune the covariance matrix between LiDAR and IMU odometry. However, this won't solve the problem generically. Consequently, the proposed approach involves relying solely on IMU odometry and developing a learning framework that employs the robot's gait as a constraint for propagating IMU covariance. In this scenario, we prioritize trust in the IMU's state estimation before our LiDAR odometry recovered.
+
+As a result, the proposed idea is to use IMU odometry exclusively and train alearning framework that uses robot gait as a constraint to propagate IMUcovariance. In this case, we will be trusting IMU state estimation before our LiDAR odometry is recovered. More specifically, we want to properly learn accelerator and gyroscope covariance $\Sigma_\eta^{a d}$ and $\Sigma_\eta^{g d}$ in relation to gait and being able to propagate IMU covariance kinematically. $$\Sigma_{k+1}=A_k \Sigma_k A_k^T+B_k \Sigma_\eta^{a d} B_k^T+C_k \Sigma_\eta^{g d} C_k^T$$
 
 
 
-My Lidar-Inertial SLAM framework leverages the combined power of Lidar and IMU sensors. This integration delivers a substantial leap in performance by addressing the key issues faced by camera SLAM systems. The Lidar-Inertial fusion offers superior accuracy in compared to camera and IMU fusion under high dynamic scenarios. Lidar sensors provide accurate and high-resolution 3D point cloud data of the surrounding environment. They are excellent at capturing detailed information about obstacles, landmarks, and the terrain. Inertial sensors can capture the motion of an object over time, making them less susceptible to drift that can accumulate in purely vision-based systems. The combination of Lidar's precise distance measurements and IMU's continuous motion tracking significantly reduces the margin of error. 
 
-Based on current progress, I am utilizing the dynamics of the robot to assist feature extraction in the front end and ensure a tightly-coupled factor graph optimization between LiDAR and IMU. I expect an increase in trajectory robustness compared to many state-of-art LiDAR related SLAM algorithms, such as LOAM and LIO-SAM. I intend to submit the result of this work to IROS 2024.
+
+
 
 <p align="center">
   <img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;"><br>
