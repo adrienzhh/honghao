@@ -28,6 +28,13 @@ To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odo
 
 As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry works well in a straight line however very sensitive if we experience sudden rotations or accelerations.  
 
+<p align="center">
+  <img src="https://adrienzhh.github.io/honghao/images/imu_1.png" style="width: 40%;">
+  <img src="https://adrienzhh.github.io/honghao/images/imu_2.png" style="width: 40%;">
+  <br>
+  <em>IMU plot</em>
+</p>
+
 
 A naive solution to this problem is to tune the covariance matrix between LiDAR and IMU odometry. However, this won't solve the problem generically. Consequently, the proposed approach involves relying solely on IMU odometry and developing a learning framework that employs the robot's gait as a constraint for propagating IMU covariance. In this scenario, we prioritize trust in the IMU's state estimation before our LiDAR odometry recovered. As a result, the proposed idea is to use IMU odometry exclusively and train alearning framework that uses robot gait as a constraint to propagate IMUcovariance. In this case, we will be trusting IMU state estimation before our LiDAR odometry is recovered. More specifically, we want to properly learn accelerator and gyroscope covariance $\Sigma_\eta^{a d}$ and $\Sigma_\eta^{g d}$ in relation to gait and being able to propagate IMU covariance kinematically. 
 
