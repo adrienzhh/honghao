@@ -12,11 +12,11 @@ In the landscape of robotics and autonomous systems, the simultaneous localizati
   </video>
 </p>
 
-Given the superior field of view and rich geometric information capture capabilities of LiDAR, I opted for a Lidar-Inertial SLAM approach to address the challenge. To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. Here, I tested state-of-art [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) under different pitch frequency. We can see the large state estimation difference between 0 Hz (no pitching) and 2.5 Hz. 
+Given the superior field of view and rich geometric information capture capabilities of LiDAR, I opted for a Lidar-Inertial SLAM approach to address the challenge. To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. Here, I tested state-of-art [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) under different pitch frequency. We can see the drift from state estimation at 2 Hz pitch. 
 
 <p align="center">
   <img src="https://adrienzhh.github.io/honghao/images/hans_experiment_setup.gif" alt="GIF" style="width: 60%;"><br>
-  <em>Simulation Environment</em>
+  <em>2 Hz robot pitch in Simulation</em>
 </p>
 
 To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odometry separately. Per observation, the LiDAR odometry drift is mostly due to the sparse features when the robot kept facing the angle view where we don't have good geometric information (it's similar to the blank hallway scenario in the SLAM problem, in which the state estimation remains still because the lack of feature changes). Because of this reason, this will lead to most open-sourced LiDAR-Inertial frameworks fail because they usually place a larger belief weight on LiDAR odometry when constructing a covariance matrix for backend optimization if we assume robust LiDAR odometry. A sample factor graph is shown below, the LiDAR factor serves as a constraint for IMU integration. 
@@ -35,7 +35,7 @@ As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry
   <img src="https://adrienzhh.github.io/honghao/images/imu_3.png" style="width: 40%;">
   <img src="https://adrienzhh.github.io/honghao/images/imu_4.png" style="width: 40%;">
   <br>
-  <em><span style="color:blue">IMU integration trajectory</span> <span style="color:red">Ground truth trajectory</span> We can see IMU integration is very sensitive to large value spikes</em>
+  <em><span style="color:blue">IMU integration trajectory</span> <span style="color:red">Ground truth trajectory</span>. We can see IMU integration is very sensitive to large value spikes</em>
 </p>
 
 
