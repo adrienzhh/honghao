@@ -19,11 +19,11 @@ Given the superior field of view and rich geometric information capture capabili
   <em>Simulation Environment</em>
 </p>
 
-To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odometry separately. Per observation, the LiDAR odometry drift is mostly due to the sparse features when the robot kept facing the angle view where we don't have good geometric information (it's similar to the blank hallway scenario in the SLAM problem, in which the state estimation remains still because the lack of feature changes). As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry works well in a straight line however very sensitive if we experience sudden rotations or accelerations. 
+To evaluate the drift, I conducted a trajectory experiment on LiDAR and IMU odometry separately. Per observation, the LiDAR odometry drift is mostly due to the sparse features when the robot kept facing the angle view where we don't have good geometric information (it's similar to the blank hallway scenario in the SLAM problem, in which the state estimation remains still because the lack of feature changes). Because of this reason, this will lead to most open-sourced LiDAR-Inertial frameworks fail because they usually place a larger belief weight on LiDAR odometry when constructing a covariance matrix for backend optimization. A sample factor graph is shown below, the LiDAR factor serves as a constraint for IMU integration. 
 
-Additionally, 
+ As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry works well in a straight line however very sensitive if we experience sudden rotations or accelerations.  
 
-To evaulate the drift, I conducted trajectory experiment on Based on the observation, the large drift
+
 
 My Lidar-Inertial SLAM framework leverages the combined power of Lidar and IMU sensors. This integration delivers a substantial leap in performance by addressing the key issues faced by camera SLAM systems. The Lidar-Inertial fusion offers superior accuracy in compared to camera and IMU fusion under high dynamic scenarios. Lidar sensors provide accurate and high-resolution 3D point cloud data of the surrounding environment. They are excellent at capturing detailed information about obstacles, landmarks, and the terrain. Inertial sensors can capture the motion of an object over time, making them less susceptible to drift that can accumulate in purely vision-based systems. The combination of Lidar's precise distance measurements and IMU's continuous motion tracking significantly reduces the margin of error. 
 
