@@ -21,7 +21,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-2.pdf)
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/shakyPerception/"><b>Shaky Perception</b></a><br>
-            Improve robustness of LiDAR-inertial SLAM under high robot dynamic
+            Improve robustness of SLAM under high robot dynamic
         </p>
     </div>
 </div>
