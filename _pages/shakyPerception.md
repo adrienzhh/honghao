@@ -30,11 +30,10 @@ As for the IMU, we can integrate IMU values to obtain IMU odometry. IMU odometry
 
 
 A naive solution to this problem is to tune the covariance matrix between LiDAR and IMU odometry. However, this won't solve the problem generically. Consequently, the proposed approach involves relying solely on IMU odometry and developing a learning framework that employs the robot's gait as a constraint for propagating IMU covariance. In this scenario, we prioritize trust in the IMU's state estimation before our LiDAR odometry recovered. As a result, the proposed idea is to use IMU odometry exclusively and train alearning framework that uses robot gait as a constraint to propagate IMUcovariance. In this case, we will be trusting IMU state estimation before our LiDAR odometry is recovered. More specifically, we want to properly learn accelerator and gyroscope covariance $\Sigma_\eta^{a d}$ and $\Sigma_\eta^{g d}$ in relation to gait and being able to propagate IMU covariance kinematically. 
-$$\Sigma_{k+1}=A_k \Sigma_k A_k^T+B_k \Sigma_\eta^{a d} B_k^T+C_k \Sigma_\eta^{g d} C_k^T$$
+$$
+\begin{equation}
+\Sigma_{k+1}=A_k \Sigma_k A_k^T+B_k \Sigma_\eta^{a d} B_k^T+C_k \Sigma_\eta^{g d} C_k^T
+\end{equation}
+$$
 
-
-
-<p align="center">
-  <img src="https://adrienzhh.github.io/honghao/images/lio_sam.png" style="width: 60%;"><br>
-  <em>Trajectory on rocky terrian using LIO-SAM</em>
-</p>
+More details to come as we proceed Shaky Perception!
