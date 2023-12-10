@@ -6,6 +6,9 @@ author_profile: true
 ---
 
 In the landscape of robotics and autonomous systems, the simultaneous localization and mapping (SLAM) technology plays a pivotal role in enabling robots to navigate and comprehend their surroundings. However, it faces a significant challenge when confronted with high dynamic robotic motion, leading to feature distortion and unstable measurements. 
+<video width="320" height="240" controls>
+  <source src="https://adrienzhh.github.io/honghao/images/shakeyPerception.MP4" type="video/mp4">
+</video>
 
 To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. An IMU, lidar sensor and camera is used to simulate sensor information for my research study. I compare lidar and IMU fusion approach with the camera and IMU fusion. 
 
