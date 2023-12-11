@@ -4,4 +4,22 @@ excerpt: "67 miles hike in 4 days"
 collection: trips
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<p align="center">
+  <img src="https://adrienzhh.github.io/honghao/images/gobi_1.JPG" style="width: 40%;"><br>
+</p>
+
+<p align="center">
+  <img src="https://adrienzhh.github.io/honghao/images/gobi_2.JPG" style="width: 40%;"><br>
+</p>
+
+<p align="center">
+  <img src="https://adrienzhh.github.io/honghao/images/gobi_3.JPG" style="width: 40%;"><br>
+</p>
+
+<p align="center">
+  <img src="https://adrienzhh.github.io/honghao/images/gobi_4.JPG" style="width: 40%;"><br>
+</p>
+
+<p align="center">
+  <img src="https://adrienzhh.github.io/honghao/images/gobi_5.JPG" style="width: 40%;"><br>
+</p>
