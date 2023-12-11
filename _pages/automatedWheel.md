@@ -40,6 +40,6 @@ The vision for this work is to make robot arm paint like [Sandro Botticelli](htt
 
 <p align="center">
   <video width="640" height="480" controls>
-    <source src="https://adrienzhh.github.io/honghao/images/me2110_2.MOV" type="video/mp4">
+    <source src="https://adrienzhh.github.io/honghao/images/me2110_2.mp4" type="video/mp4">
   </video>
 </p>
