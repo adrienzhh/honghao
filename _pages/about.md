@@ -51,6 +51,16 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-2.pdf)
 
 ## Selected Projects
 
+<div style="display: flex; flex-direction: row;">
+    <img src="images/wheel_1.jpg" style="width: 40%;height: 200px;" />
+    <div style="flex: 1; padding-left: 20px;">
+        <p style="font-size: 15px;">
+            <a href="https://adrienzhh.github.io/honghao/roboticPaint/"><b>Automated Wheel Project</b></a><br>
+            We use Franka Arm to paint graffti on a stand 
+        </p>
+    </div>
+</div>
+
 
 
 
