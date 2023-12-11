@@ -52,7 +52,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-2.pdf)
 ## Selected Projects
 
 <div style="display: flex; flex-direction: row;">
-    <img src="images/wheel_2.png" style="width: 40%;height: 300px;" />
+    <img src="images/wheel_6.jpg" style="width: 40%;height: 300px;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <a href="https://adrienzhh.github.io/honghao/automatedWheel/"><b>Automated Wheel Project</b></a><br>
