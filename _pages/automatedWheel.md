@@ -11,3 +11,9 @@ The vision for this work is to make robot arm paint like [Sandro Botticelli](htt
   <img src="https://adrienzhh.github.io/honghao/images/wheel_1.jpg" style="width: 60%;"><br>
   <em>Framework</em>
 </p>
+
+<p align="center">
+  <video width="640" height="480" controls>
+    <source src="https://adrienzhh.github.io/honghao/images/me2110_1.MOV" type="video/mp4">
+  </video>
+</p>
