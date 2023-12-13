@@ -5,7 +5,7 @@ permalink: automatedWheel/
 author_profile: true
 ---
 
-This is the automated wheeled robot that we designed and built for ME 2110 at Georgia Tech. The process was fully integrated, in which we have to create the design in CAD, fabricate all the parts, and program the movements. I was in charge of the entire wheel system subpart of the entire assembly. We competed in a final competition. We competed in a final competition against 60 other teams. We were placed 20 out of 60. Our robot was called Slinky from Toy Story.
+This is the automated wheeled robot that we designed and built for ME 2110 at Georgia Tech. The process was fully integrated, in which we have to create the design in CAD, fabricate all the parts, and program the movements. I was in charge of the entire wheel system subpart of the entire assembly. We competed in a final competition against 60 other teams. We were placed 20 out of 60. Our robot was called Slinky from Toy Story.
 
 <p align="center">
   <img src="https://adrienzhh.github.io/honghao/images/wheel_1.jpg" style="width: 40%;"><br>
