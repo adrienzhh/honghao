@@ -14,11 +14,11 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-3.8.pdf)
 
 ## Publication
 <div style="display: flex; flex-direction: row;">
-    <img src="images/superloc_title.gif" alt="GIF" style="width: 40%;height: 120px;"  />
+    <img src="images/superloc_title.gif" alt="GIF" style="width: 60%;height: 120px;"  />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <b>SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks</b><br>
-            Shibo Zhao<sup>*</sup>, <b>Honghao Zhu<sup>*</sup></b>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson<br> (<sup>*</sup> equal contribution)
+            Shibo Zhao<sup>*</sup>, <b>Honghao Zhu<sup>*</sup></b>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson(<sup>*</sup> equal contribution)
             <i>ICRA 2025 Under Review, </i>
             arXiv | <a href="https://superodometry.com/superloc">website</a> | <a href="https://youtu.be/Rk41pO6Wds0?si=LFGmXHAE_jIwpcEo">video</a>
         </p>
