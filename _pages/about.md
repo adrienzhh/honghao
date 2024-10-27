@@ -8,13 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year master student at Carnegie Mellon University working in [Robomechanic lab](https://www.cmu.edu/me/robomechanicslab/), advised by Dr. [Aaron Johnson](https://www.andrew.cmu.edu/user/amj1/). My research foucs on SLAM and perpcetion, especially challenge outside environments 🤖 
+I am currently a graduate researcher working at Carnegie Mellon University. My research interests lies on robtics perpcetion and how to enable robust autonomy. I was fortunate to be advised by Dr. [Aaron Johnson](https://www.andrew.cmu.edu/user/amj1/) and [Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I have previsouly obtained by B.S. degrees from Georgia Institute of Technology, advised by Dr. [Frank Dellaert](https://dellaert.github.io/).
 
-I have previsouly obtained by B.S. degrees from Georgia Institute of Technology. I was advised by Dr. [Frank Dellaert](https://dellaert.github.io/). There, I was involved in robotic painting 🎨 using Franka Panda arm 🦾 
+My full [Resume](https://adrienzhh.github.io/honghao/files/CV-3.8.pdf)
 
-My full [Resume](https://adrienzhh.github.io/honghao/files/CV-2.pdf)
+## Publication
+<div style="display: flex; flex-direction: row;">
+    <img src="images/superloc_title.gif" alt="GIF" style="width: 40%;height: 120px;"  />
+    <div style="flex: 1; padding-left: 20px;">
+        <p style="font-size: 15px;">
+            <b>SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks</b><br>
+            Shibo Zhao<sup>*</sup>, <b>Honghao Zhu<sup>*</sup></b>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson<br> (<sup>*</sup> equal contribution)
+            <i>ICRA 2025 Under Review, </i>
+            arXiv | <a href="https://superodometry.com/superloc">website</a> | <a href="https://youtu.be/Rk41pO6Wds0?si=LFGmXHAE_jIwpcEo">video</a>
+        </p>
+    </div>
+</div>
 
-## Research
+<div style="display: flex; flex-direction: row;">
+    <img src="images/icra_2024_for_website.gif" alt="GIF" style="width: 40%;height: 120px;"  />
+    <div style="flex: 1; padding-left: 20px;">
+        <p style="font-size: 15px;">
+            <b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b><br>
+            Sean J. Wang, <b>Honghao Zhu</b>, Aaron M. Johnson<br>
+            <i><b>ICRA 2024 Accepted</b>,</i>
+            <a href="https://arxiv.org/pdf/2310.08674.pdf">arXiv</a> | <a href="https://adrienzhh.github.io/honghao/roboticPaint/">website</a> | <a href="https://drive.google.com/file/d/1ReCrDkmMHNnkCNejk8AkMynjPOcO2UWN/view?usp=sharing">video</a>
+        </p>
+    </div>
+</div>
+
+## Research Projects
 
 <div style="display: flex; flex-direction: row;">
     <img src="images/shakeyPerception.gif" alt="GIF" style="width: 40%;height: 160px;" />
@@ -36,18 +59,6 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-2.pdf)
     </div>
 </div>
  
-## Publication
-<div style="display: flex; flex-direction: row;">
-    <img src="images/icra_2024_for_website.gif" alt="GIF" style="width: 40%;height: 120px;"  />
-    <div style="flex: 1; padding-left: 20px;">
-        <p style="font-size: 15px;">
-            <a href="https://adrienzhh.github.io/honghao/payAttentionDrift/"><b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b></a><br>
-            <a href="https://seanjwang.github.io/#home">Sean J. Wang</a>, <b>Honghao Zhu</b>, <a href="https://www.andrew.cmu.edu/user/amj1/">Aaron M. Johnson</a><br>
-            <i>ICRA 2024 Accepted, </i>
-            <a href="https://arxiv.org/pdf/2310.08674.pdf">arXiv</a> | <a href="https://drive.google.com/file/d/1ReCrDkmMHNnkCNejk8AkMynjPOcO2UWN/view?usp=sharing">video</a>
-        </p>
-    </div>
-</div>
 
 ## Selected Projects
 
