@@ -14,11 +14,11 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-3.8.pdf)
 
 ## Publication
 <div style="display: flex; flex-direction: row;">
-    <img src="images/superloc_title.gif" alt="GIF" style="width: 60%;height: 120px;"  />
+    <img src="images/superloc_title.gif" alt="GIF" style="width: 40%;height: 160px;"  />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <b>SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks</b><br>
-            Shibo Zhao<sup>*</sup>, <b>Honghao Zhu<sup>*</sup></b>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson(<sup>*</sup>equal contribution)<br>
+            Shibo Zhao<sup>*</sup>, <strong>Honghao Zhu<sup>*</sup></strong>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson(<sup>*</sup>equal contribution)<br>
             <i>ICRA 2025 Under Review, </i>
             arXiv | <a href="https://superodometry.com/superloc">website</a> | <a href="https://youtu.be/Rk41pO6Wds0?si=LFGmXHAE_jIwpcEo">video</a>
         </p>
@@ -30,7 +30,7 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-3.8.pdf)
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <b>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</b><br>
-            Sean J. Wang, <b>Honghao Zhu</b>, Aaron M. Johnson<br>
+            Sean J. Wang, <strong>Honghao Zhu</strong>, Aaron M. Johnson<br>
             <i><b>ICRA 2024 Accepted</b>,</i>
             <a href="https://arxiv.org/pdf/2310.08674.pdf">arXiv</a> | <a href="https://adrienzhh.github.io/honghao/roboticPaint/">website</a> | <a href="https://drive.google.com/file/d/1ReCrDkmMHNnkCNejk8AkMynjPOcO2UWN/view?usp=sharing">video</a>
         </p>
