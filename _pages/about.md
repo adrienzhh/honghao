@@ -18,19 +18,19 @@ My full [Resume](https://adrienzhh.github.io/honghao/files/CV-3.8.pdf)
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <strong>SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks</strong><br>
-            Shibo Zhao<sup>*</sup>, <strong>Honghao Zhu<sup>*</sup></strong>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson(<sup>*</sup>equal contribution)<br>
+            Shibo Zhao<sup>*</sup>, <span style="font-weight: 700;">Honghao Zhu<sup>*</sup></span>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson(<sup>*</sup>equal contribution)<br>
             <i>ICRA 2025 Under Review, </i>
             arXiv | <a href="https://superodometry.com/superloc">website</a> | <a href="https://youtu.be/Rk41pO6Wds0?si=LFGmXHAE_jIwpcEo">video</a>
         </p>
     </div>
 </div>
-
+<br>
 <div style="display: flex; flex-direction: row;">
     <img src="images/icra_2024_for_website.gif" alt="GIF" style="width: 40%;height: 120px;" />
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px;">
             <strong>Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</strong><br>
-            Sean J. Wang, <strong>Honghao Zhu</strong>, Aaron M. Johnson<br>
+            Sean J. Wang, <span style="font-weight: 700;">Honghao Zhu</span>, Aaron M. Johnson<br>
             <i><strong>ICRA 2024 Accepted</strong>,</i>
             <a href="https://arxiv.org/pdf/2310.08674.pdf">arXiv</a> | <a href="https://adrienzhh.github.io/honghao/roboticPaint/">website</a> | <a href="https://drive.google.com/file/d/1ReCrDkmMHNnkCNejk8AkMynjPOcO2UWN/view?usp=sharing">video</a>
         </p>
