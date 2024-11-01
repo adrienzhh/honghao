@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <div>
-I am currently a graduate researcher working at Carnegie Mellon University. My research interests lies on robtics perpcetion and how to enable robust autonomy. I was fortunate to be advised by Dr. <a href="https://www.andrew.cmu.edu/user/amj1/">Aaron Johnson</a> and <a href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>. I have previsouly obtained by B.S. degrees from Georgia Institute of Technology, advised by Dr. <a href="https://dellaert.github.io/">Frank Dellaert</a>.
+I am currently a graduate researcher working at Carnegie Mellon University. My research interests lies on robtics perpcetion and how to enable robust autonomy. I was fortunate to be advised by Dr. <a href="https://www.andrew.cmu.edu/user/amj1/">Aaron Johnson</a> and <a href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>. I have previsouly obtained by B.S. degrees from Georgia Institute of Technology, advised by Dr. <a href="https://dellaert.github.io/">Frank Dellaert</a>. <br>
 
 My full <a href="https://adrienzhh.github.io/honghao/files/CV-3.8.pdf">Resume</a>
 
