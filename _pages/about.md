@@ -30,7 +30,7 @@ My full <a href="https://adrienzhh.github.io/honghao/files/CV-3.8.pdf">Resume</a
     <div style="flex: 1; padding-left: 20px;">
         <p style="font-size: 15px; font-weight: normal;">
             <span style="font-weight: bold;">Pay Attention to How You Drive: Safe and Adaptive Model-Based Reinforcement Learning for Off-Road Driving</span><br>
-            Sean J. Wang, <strong">Honghao Zhu</strong>, Aaron M. Johnson<br>
+            Sean J. Wang, <strong>Honghao Zhu</strong>, Aaron M. Johnson<br>
             <i><span style="font-weight: bold;">ICRA 2024 Accepted</span></i>,
             <a href="https://arxiv.org/pdf/2310.08674.pdf">arXiv</a> | <a href="https://adrienzhh.github.io/honghao/roboticPaint/">website</a> | <a href="https://drive.google.com/file/d/1ReCrDkmMHNnkCNejk8AkMynjPOcO2UWN/view?usp=sharing">video</a>
         </p>
