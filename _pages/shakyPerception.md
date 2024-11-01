@@ -16,6 +16,5 @@ In this work, the proposed solution is to use learned inertial odometry without 
 
 <p align="center">
   <img src="https://adrienzhh.github.io/honghao/images/shaky_perception.jpg" style="width: 100%;"><br>
-  <em>Add your caption here</em>
 </p>
 
