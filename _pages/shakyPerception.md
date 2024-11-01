@@ -12,6 +12,15 @@ In the landscape of robotics and autonomous systems, the simultaneous localizati
   </video>
 </p>
 
+In this work, the proposed solution is to use learning inertial odometry. 
+
+<p align="center">
+  <object data="https://adrienzhh.github.io/honghao/images/shaky_perception.pdf" type="application/pdf" width="800" height="600">
+    <p>It appears you don't have a PDF plugin for this browser. 
+    You can <a href="https://adrienzhh.github.io/honghao/images/shaky_perception.pdf">click here to download the PDF file.</a></p>
+  </object>
+</p>
+
 Given the superior field of view and rich geometric information capture capabilities of LiDAR, I opted for a Lidar-Inertial SLAM approach to address the challenge. To validate the effectiveness of my Lidar-Inertial SLAM framework and to demonstrate its superior performance, I conducted a series of comprehensive experiments in a simulated environment. To make robots dynamic, I use a robot with varied head pitching motion. The pitch changes from 1 to 2.5 Hz to distinguish the dynamics level. Here, I tested state-of-art [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) under different pitch frequency. We can see the drift from state estimation at 2 Hz pitch. 
 
 <p align="center">
