@@ -10,7 +10,7 @@ redirect_from:
 <div>
 I am currently a graduate researcher working at Carnegie Mellon University. My research interests lies on robtics perpcetion and how to enable robust autonomy. I was fortunate to be advised by Dr. <a href="https://www.andrew.cmu.edu/user/amj1/">Aaron Johnson</a> and <a href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>. I have previsouly obtained by B.S. degrees from Georgia Institute of Technology, advised by Dr. <a href="https://dellaert.github.io/">Frank Dellaert</a>. <br>
 
-My full <a href="https://adrienzhh.github.io/honghao/files/CV-3.8.pdf">Resume</a>
+My full <a href="https://adrienzhh.github.io/honghao/files/CV-4.0.pdf">Resume</a>
 
 <h2>Publication</h2>
 <div style="display: flex; flex-direction: row;">
@@ -20,7 +20,7 @@ My full <a href="https://adrienzhh.github.io/honghao/files/CV-3.8.pdf">Resume</a
             <span style="font-weight: bold;">SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks</span><br>
             Shibo Zhao<sup>*</sup>, <span style="font-weight: bold;">Honghao Zhu<sup>*</sup></span>, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Sebastian Scherer, Aaron M. Johnson (<sup>*</sup>equal contribution)<br>
             <i>ICRA 2025 Under Review, </i>
-            arXiv | <a href="https://superodometry.com/superloc">website</a> | <a href="https://www.youtube.com/watch?v=HqoDL2xiaZA&ab_channel=AdrienZhu">video</a>
+            <a href="https://drive.google.com/file/d/1R6OjgIPPImZbP2aMIh0ls_S7cPg9f2vC/view?usp=sharing">arXiv</a> | <a href="https://superodometry.com/superloc">website</a> | <a href="https://www.youtube.com/watch?v=HqoDL2xiaZA&ab_channel=AdrienZhu">video</a>
         </p>
     </div>
 </div>
